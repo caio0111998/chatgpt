@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Quiz</h1>
+	<div id="question">
+		<p id="question-text">Qual é a capital do Brasil?</p>
+		<div id="options">
+			<button class="option" onclick="checkAnswer('Brasília')">Brasília</button>
+			<button class="option" onclick="checkAnswer('Rio de Janeiro')">Rio de Janeiro</button>
+			<button class="option" onclick="checkAnswer('São Paulo')">São Paulo</button>
+		</div>
+		<p id="result"></p>
+	</div>
+	<script src="quiz.js"></script>
+</body>
+</html>
