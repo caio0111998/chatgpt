@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Pack CTR Turbo</title>
+    <title>Pack CTR TURBO!</title>
     <style>
       /* Estilos para a página de vendas */
       body {
@@ -52,6 +52,36 @@
         margin: 0 auto;
       }
       
+      #carousel {
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 20px;
+        overflow: hidden;
+      }
+      
+      #carousel ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 9999px;
+        animation: carousel-scroll 20s linear infinite;
+      }
+      
+      #carousel li {
+        width: 800px;
+        margin-right: 20px;
+      }
+      
+      @keyframes carousel-scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-9999px);
+        }
+      }
+      
       #call-to-action {
         max-width: 800px;
         margin: 0 auto;
@@ -92,17 +122,4 @@
       <p>O pacote de imagens para marketing digital inclui uma grande variedade de imagens de alta qualidade para ajudar a melhorar suas campanhas de marketing digital.</p>
       <ul>
         <li>Mais de 1000 imagens de alta qualidade</li>
-        <li>Imagens temáticas para diferentes nichos de mercado</li>
-        <li>Formatos de arquivo populares, incluindo JPG e PNG</li>
-        <li>Prontas para uso em suas campanhas de marketing digital</li>
-      </ul>
-      <img src="imagem-exemplo.jpg" alt="Exemplo de imagem do pacote">
-    </div>
-    
-    <div id="call-to-action">
-      <p>Compre agora o pacote de imagens por apenas R$ 49,90!</p>
-      <a href="#">Compre agora!</a>
-    </div>
-    
-    <div id="footer">
-      <p>Copyright
+       
