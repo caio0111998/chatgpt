@@ -1,0 +1,1 @@
+var _hsq=window._hsq=window._hsq||[];_hsq.push(['setContentType','standard-page'])

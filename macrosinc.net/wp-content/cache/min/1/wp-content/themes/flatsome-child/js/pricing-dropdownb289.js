@@ -1,0 +1,3 @@
+jQuery(document).ready(function($){$('#completeCoachingChoose').on('change',function(){if(this.value=='3'){$(".completeCoachingPrice .price").html('$159/month with 3 month commitment');$(".completeCoachingLink").attr("href","https://portal.macrosinc.net/nutrition-3-monthly/add-to-cart")}
+if(this.value=='6'){$(".completeCoachingPrice .price").html('$149/month with 6 month commitment');$(".completeCoachingLink").attr("href","https://portal.macrosinc.net/nutrition-6-monthly/add-to-cart")}
+if(this.value=='12'){$(".completeCoachingPrice .price").html('$139/month with 12 month commitment');$(".completeCoachingLink").attr("href","https://portal.macrosinc.net/nutrition-12-monthly/add-to-cart")}})})
